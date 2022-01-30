@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #dfd9d9;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.heading ul {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+}
+
+.heading ul li {
+  list-style: none;
+}
+
+.heading ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.heading ul li a:hover {
+  color: blue;
+}
+
+.main-section {
+  background-image: url("../images/hero.png");
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 572px;
+  text-align: center;
+}
+
+.main-section div p {
+  width: 500px;
+  font-size: 23px;
+  margin: 9px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-section div a {
+  text-decoration: none;
+  background-color: yellow;
+  width: 130px;
+  margin: 5px auto;
+  padding: 10px;
+  font-size: 23px;
+  color: black;
+}
+
+.main-section div a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.item-contoner {
+  height: 40vw;
+  background-color: #f4efef;
+  padding: 40px;
+}
+
+.head {
+  text-align: center;
+  position: relative;
+}
+
+.head::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-image: url("../icons/hr.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 20px 0;
+}
+
+.views a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  width: 105px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-weight: bold;
+  /* margin-top: 44px; */
+}
+
+.views a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.main-item-contoner {
+  display: flex;
+  justify-content: space-between;
+  height: 30rem;
+}
+
+.left-right-btn {
+  background-color: gold;
+  width: 29px;
+  height: 32px;
+  border: none;
+  text-align: center;
+  position: relative;
+  top: 204px;
+  cursor: pointer;
+}
+
+.main-item-contoner div {
+  display: flex;
+  justify-content: space-around;
+  width: 80em;
+}
+
+.main-items-contoners {
+  height: 24rem;
+  background-color: white;
+  width: 350px;
+  margin: 32px auto;
+  border: 2px solid black;
+}
+
+.main-items-contoners hr {
+  width: 310px;
+  margin: 0 auto;
+}
+
+.main-items-contoners h2 {
+  width: 300px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.food-class {
+  width: 80%;
+  height: 200px;
+  object-fit: contain;
+  padding-bottom: 1rem;
+  margin-left: 35px;
+  margin: 12px 35px;
+}
+
+.start-class {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  left: 129px;
+  margin: 5px 0;
+}
+
+.add-cards {
+  position: relative;
+  top: 30px;
+  width: 161px;
+  height: 40px;
+  background-color: gold;
+}
+
+.add-cards a {
+  text-decoration: none;
+}
+
+.add-cards a img {
+  background-position: right;
+}
+
+.add-cards a span {
+  font-weight: bold;
+  color: black;
+}
+
+.About-fresh-meal {
+  padding: 40px;
+}
+
+.About-fresh-meal-descripation {
+  display: flex;
+  justify-content: center;
+}
+
+.About-fresh-meal-descripation div {
+  width: 489px;
+}
+
+.About-fresh-meal-descripation div h2,
+p,
+button {
+  margin: 20px;
+}
+
+.About-fresh-meal-descripation div button {
+  border: none;
+  width: 130px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: #847c7c;
+  color: white;
+}
+
+.About-fresh-meal-descripation div button:hover {
+  background-color: white;
+  border: 1px solid #847c7c;
+  color: #000;
+}
+
+.our-services {
+  background-color: #f4efef;
+  padding: 40px;
+  height: 30vw;
+}
+
+.info-services {
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.info-services div {
+  background-color: white;
+  width: 325px;
+  height: 290px;
+  margin: 60px 10px;
+  text-align: center;
+}
+
+.info-services button {
+  border: none;
+  width: 130px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: #847c7c;
+  border: 2px solid #847c7c;
+  color: white;
+  cursor: pointer;
+}
+
+.info-services button:hover {
+  background-color: gold;
+  border: 2px solid gold;
+  color: black;
+}
+
+.icone {
+  position: relative;
+  bottom: 45px;
+}
+
+.context-us {
+  padding: 40px;
+  height: 16vw;
+}
+
+.our-services-contioner {
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.our-services-contioner div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3px 0;
+}
+
+.our-services-contioner div img {
+  width: 50px;
+}
