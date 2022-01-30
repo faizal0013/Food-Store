@@ -303,7 +303,7 @@ button {
 
 .from-continer {
   padding: 40px;
-  height: 23vw;
+  height: 30vw;
 }
 
 .from-continer form div {
@@ -326,11 +326,14 @@ button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
-
+/* 
 input[type="submit"]:hover {
   background-color: green;
-}
+  font-weight: bold;
+  color: white;
+} */
 
 .submit-btn {
+  font-weight: bold;
   border: none;
 }
