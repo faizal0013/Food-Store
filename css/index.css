@@ -12,8 +12,6 @@
   top: 0;
   z-index: 1;
   background-color: #dfd9d9;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
 }
 
 .heading ul {
@@ -279,6 +277,12 @@ button {
   height: 16vw;
 }
 
+.context-us2 {
+  background-color: #f4efef;
+  padding: 40px;
+  height: 16vw;
+}
+
 .our-services-contioner {
   display: flex;
   width: 1024px;
@@ -295,4 +299,38 @@ button {
 
 .our-services-contioner div img {
   width: 50px;
+}
+
+.from-continer {
+  padding: 40px;
+  height: 23vw;
+}
+
+.from-continer form div {
+  width: 417px;
+  margin: 5px auto;
+}
+
+.from-continer form div {
+  width: 417px;
+  margin: 5px auto;
+}
+
+.from-continer form div input {
+  width: 410px;
+  margin: 5px auto;
+  height: 35px;
+  font-size: 19px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="submit"]:hover {
+  background-color: green;
+}
+
+.submit-btn {
+  border: none;
 }
