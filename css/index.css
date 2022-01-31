@@ -18,6 +18,7 @@
   display: flex;
   justify-content: space-around;
   width: 900px;
+  margin: 20px 0;
 }
 
 .heading ul li {
@@ -27,6 +28,7 @@
 .heading ul li a {
   text-decoration: none;
   color: black;
+  font-size: 20px;
 }
 
 .heading ul li a:hover {
@@ -35,20 +37,24 @@
 
 .main-section {
   background-image: url("../images/hero.png");
-  height: 600px;
   display: flex;
   justify-content: center;
 }
 
-.main-section div {
+.main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 572px;
   text-align: center;
+  width: 524px;
 }
 
-.main-section div p {
+.main div {
+  width: 519px;
+  margin: 15px 0px;
+}
+
+.main p {
   width: 500px;
   font-size: 23px;
   margin: 9px;
@@ -56,7 +62,7 @@
   justify-content: center;
 }
 
-.main-section div a {
+.main a {
   text-decoration: none;
   background-color: yellow;
   width: 130px;
@@ -72,9 +78,7 @@
 }
 
 .item-contoner {
-  height: 40vw;
   background-color: #f4efef;
-  padding: 40px;
 }
 
 .head {
@@ -93,6 +97,11 @@
   margin: 20px 0;
 }
 
+.views {
+  position: relative;
+  bottom: 17px;
+}
+
 .views a {
   text-decoration: none;
   color: white;
@@ -106,7 +115,6 @@
   margin: 0 auto;
   border-radius: 10px;
   font-weight: bold;
-  /* margin-top: 44px; */
 }
 
 .views a:hover {
@@ -117,7 +125,6 @@
 .main-item-contoner {
   display: flex;
   justify-content: space-between;
-  height: 30rem;
 }
 
 .left-right-btn {
@@ -194,10 +201,6 @@
   color: black;
 }
 
-.About-fresh-meal {
-  padding: 40px;
-}
-
 .About-fresh-meal-descripation {
   display: flex;
   justify-content: center;
@@ -231,8 +234,6 @@ button {
 
 .our-services {
   background-color: #f4efef;
-  padding: 40px;
-  height: 30vw;
 }
 
 .info-services {
@@ -272,15 +273,8 @@ button {
   bottom: 45px;
 }
 
-.context-us {
-  padding: 40px;
-  height: 16vw;
-}
-
 .context-us2 {
   background-color: #f4efef;
-  padding: 40px;
-  height: 16vw;
 }
 
 .our-services-contioner {
@@ -299,11 +293,6 @@ button {
 
 .our-services-contioner div img {
   width: 50px;
-}
-
-.from-continer {
-  padding: 40px;
-  height: 30vw;
 }
 
 .from-continer form div {
@@ -326,12 +315,6 @@ button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
-/* 
-input[type="submit"]:hover {
-  background-color: green;
-  font-weight: bold;
-  color: white;
-} */
 
 .submit-btn {
   font-weight: bold;
